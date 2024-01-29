@@ -1,0 +1,28 @@
+@import url('../fonts/fonts.css');
+
+.folder-container {
+    margin-top: -200px;
+    height: 190px;
+    width: 320px;
+}
+
+.folder-title, .folder-title a {
+    padding: 10px;
+    margin: 60px 0;
+    color: #1D2839;
+    font-family: 'Inter Bold';
+    font-size: 2rem;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.folder-title a:hover {
+    color: #3B4B74;
+    font-family: 'Inter Bold';
+    font-size: 2rem;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
