@@ -3,7 +3,6 @@ import "../styles/main.css"
 import Folder from "../assets/Folder";
 
 const Home = () => {
-
   const folders = [
     {
       linkName: '/home',
@@ -35,7 +34,7 @@ const Home = () => {
   const renderFolders = () => {
     return (folders.map((folder, idx) => {
       return (
-        <div className={"item"} key={idx}>
+        <div className={'folder-item'} key={idx}>
           <Folder
             linkName={folder.linkName}
             text={folder.text}

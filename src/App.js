@@ -18,8 +18,8 @@ export default function App() {
           <Route path="wishlist" element={<Wishlist />} />
           <Route path="template" element={<Template />} />
         </Routes>
-
-        {/* <Link to="home">Home</Link><br></br>
+{/* 
+        <Link to="home">Home</Link><br></br>
         <Link to="wishlist">Wishlist</Link>
         <Link to="template">Template</Link> */}
 

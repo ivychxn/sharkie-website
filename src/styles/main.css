@@ -45,6 +45,7 @@ h3 {
     align-self: flex-end;
     justify-content: flex-end;
     display: flex;
+    padding: 0 15px;
 }
 
 .container {
@@ -64,7 +65,7 @@ h3 {
     align-items: center;
 }
 
-.item {
+.folder-item {
     flex-basis: 30%;
     display: flex;
     justify-content: center;
