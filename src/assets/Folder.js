@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/folder.css"
 import { Link } from "react-router-dom";
 
-const Folder = ({linkName, text, folderColor}) => {
+const Folder = ({linkName, text, folderColor='#87A8C7'}) => {
   return (
     <div>
       <svg width="321" height="219" viewBox="0 0 321 219" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,8 +11,8 @@ const Folder = ({linkName, text, folderColor}) => {
           <rect x="5" y="30" width="312" height="181" rx="15" fill={folderColor} />
         </g>
         <defs>
-          <filter id="filter0_d_42_5033" x="0" y="0" width="321" height="219" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <filter id="filter0_d_42_5033" x="0" y="0" width="321" height="219" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
             <feOffset dy="4" />
             <feGaussianBlur stdDeviation="2" />
