@@ -17,6 +17,12 @@
     text-decoration: none;
     text-transform: lowercase;
     padding-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 10px;
+    text-align: center;
 }
 
 .folder-title a:hover {

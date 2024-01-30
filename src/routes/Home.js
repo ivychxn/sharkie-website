@@ -16,17 +16,17 @@ const Home = () => {
     },
     {
       linkName: 'test',
-      text: 'speak now',
+      text: 'dont click',
       color: '#d1b2d2'
     },
     {
-      linkName: 'test1',
-      text: 'red',
+      linkName: 'test3',
+      text: 'test',
       color: '#8e495b'
     },
     {
-      linkName: 'zzz',
-      text: '1989',
+      linkName: 'test2',
+      text: 'not real page',
       color: '#87A8C7'
     }
   ]
