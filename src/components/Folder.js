@@ -2,10 +2,11 @@ import React from "react";
 import "../styles/folder.css"
 import { Link } from "react-router-dom";
 
-const Folder = ({linkName, text, folderColor='#87A8C7'}) => {
+const Folder = ({linkName, text, folderColor='#87A8C7', height="219"}) => {
   return (
-    <div>
-      <svg width="321" height="219" viewBox="0 0 321 219" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div className="folder-container" style={{height: `${height}px`}}>
+      <div className="folder-svg">
+      <svg height={height} viewBox={`0 0 321 219`} fill="none" xmlns="http://www.w3.org/2000/svg">
         <g filter="url(#filter0_d_42_5033)">
           <rect x="4.5" y="0.5" width="123" height="101" rx="20.5" fill={folderColor} stroke="black" />
           <rect x="5" y="30" width="312" height="181" rx="15" fill={folderColor} />
@@ -23,9 +24,10 @@ const Folder = ({linkName, text, folderColor='#87A8C7'}) => {
           </filter>
         </defs>
       </svg>
-      <div className="folder-container">
-        <div className="folder-title">
-          <Link to={linkName}>{text}</Link><br></br>
+      </div>
+      <div className="folder-text-container" style={{marginTop: `-${height*.9}px`, height: `${height-30}px`}}>
+        <div className="folder-title" style={{fontSize: height > 175 ? '2rem' : '1.75rem'}}>
+          <Link to={`../${linkName}`}>{text}</Link><br></br>
           </div>
       </div>
     </div>

@@ -1,32 +1,32 @@
 import React from "react";
 import "../styles/main.css"
-import Folder from "../assets/Folder";
+import Folder from "../components/Folder";
 
 const Home = () => {
   const folders = [
     {
       linkName: '/home',
       text: 'home',
-      color: '#87A8C7'
+      color: '#b9d2b5'
     },
     {
-      linkName: '/Wishlist',
+      linkName: '/wishlist',
       text: 'wishlist',
-      color: '#87A8C7'
+      color: '#f4cb8d'
     },
     {
       linkName: 'test',
-      text: 'test',
-      color: '#87A8C7'
+      text: 'speak now',
+      color: '#d1b2d2'
     },
     {
       linkName: 'test1',
-      text: 'test2',
-      color: '#87A8C7'
+      text: 'red',
+      color: '#8e495b'
     },
     {
       linkName: 'zzz',
-      text: 'zzzzz',
+      text: '1989',
       color: '#87A8C7'
     }
   ]
@@ -38,7 +38,7 @@ const Home = () => {
           <Folder
             linkName={folder.linkName}
             text={folder.text}
-            color={folder.color ? folder.color : ''}
+            folderColor={folder.color ? folder.color : ''}
           />
         </div>
       )
@@ -46,17 +46,14 @@ const Home = () => {
   }
 
   return (
-    <div>
-      <div className='wave'/>
-      <div className='container'>
+    <>
         <div className='folders'>
           {renderFolders()}
         </div>
         <div className='title-only'>
           <h3>hi. i like sharks.</h3>
         </div>
-      </div>
-    </div>
+    </>
   );
 };
 

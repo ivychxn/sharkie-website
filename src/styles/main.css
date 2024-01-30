@@ -19,15 +19,19 @@ body {
 }
 
 p {
-    line-height: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+    letter-spacing: 2.5px;
 }
 
 h1 {
     color: #9199B7;
-    margin: 7px 0;
-    font-size: 6rem;
+    margin: 20px 0;
+    font-size: 3.5rem;
     letter-spacing: 0px;
     font-family: 'Inter Bold';
+    text-align: center;
+    text-transform: lowercase;
 }
 
 h3 {
@@ -49,9 +53,9 @@ h3 {
 }
 
 .container {
-    margin: 130px 30px 10px 30px;
-    padding: 15px;
-    height: 77vh;
+    margin: 130px 100px 10px 100px;
+    padding: 0 15px;
+    min-height: 77vh;
     display: flex;
     flex-direction: column;
 }
@@ -59,7 +63,7 @@ h3 {
 .folders {
     display: flex;
     width: 90%;
-    height: 75vh;
+    height: 65vh;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;

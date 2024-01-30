@@ -1,0 +1,24 @@
+@import url('../fonts/fonts.css');
+
+.fun-header {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+}
+
+.fun-fact {
+    width: 100%;
+    background-color: #354A6A;
+    border-radius: 10px;
+    height: 75px;
+    padding: 10px;
+    margin: 10px 5px 0 50px;
+    font-family: 'Inter Bold';
+    letter-spacing: 0;
+    font-size: 1.25rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
