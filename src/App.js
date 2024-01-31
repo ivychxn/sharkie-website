@@ -1,4 +1,4 @@
-import React from "react";
+import {useEffect, React, useState} from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -7,12 +7,21 @@ import {
 import Home from "./routes/Home";
 import Wishlist from "./routes/Wishlist";
 import About from "./routes/About";
+import useWindowDimensions from "./hooks/useWindowDimensions";
+import MobileNav from "./components/MobileNav";
 
 export default function App() {
+  const { width } = useWindowDimensions();
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 750)
+
+  useEffect(() => {
+    setIsMobile(window.innerWidth < 750)
+  }, [width]);
+
   return (
     <Router>
       <>
-        <div className='wave' />
+        {isMobile? <MobileNav/> : <div className='wave'/>}
         <div className='container'>
           <Routes>
             <Route path="/" element={<Home />} />
