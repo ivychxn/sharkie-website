@@ -1,4 +1,4 @@
-import {useEffect, React, useState} from "react";
+import { useEffect, React, useState } from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -21,8 +21,8 @@ export default function App() {
   return (
     <Router>
       <>
-        {isMobile? <MobileNav/> : <div className='wave'/>}
-        <div className='container'>
+        {isMobile ? <MobileNav /> : <div className='wave' />}
+        <main className='container'>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="home" element={<Home />} />
@@ -36,7 +36,7 @@ export default function App() {
               window.location.replace('https://www.youtube.com/watch?v=BbeeuzU5Qc8');
               return null;
             }} />
-            
+
             <Route path="test3" Component={() => {
               window.location.replace('https://docs.google.com/document/d/1s5O26UIqo9aC00q52eibniiEC5xYrRpdiDY8qhdsmRo/edit?usp=sharing');
               return null;
@@ -46,7 +46,7 @@ export default function App() {
         <Link to="home">Home</Link><br></br>
         <Link to="wishlist">Wishlist</Link>
         <Link to="template">Template</Link> */}
-        </div>
+        </main>
       </>
     </Router>
   );

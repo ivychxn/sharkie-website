@@ -57,7 +57,7 @@ const MobileNav = () => {
     }
 
     return (
-        <>
+        <nav>
             <div className="nav">
                 <div className="nav-title">
                     <Link to="/">ivy shark club</Link>
@@ -73,7 +73,7 @@ const MobileNav = () => {
                 </div>
                 {renderNavLinks()}
             </div>
-        </>
+        </nav>
     )
 };
 export default MobileNav
