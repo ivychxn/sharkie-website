@@ -1,16 +1,15 @@
 @import url('../fonts/fonts.css');
 
 .brand-note {
-    display: flex;
+    padding: 5px;
 }
 
-.brand-image {
-    display: flex;
-    align-self: flex-start;
+.brand-note img {
+    float: left;
+    margin-left: 20px;
 }
 
 .brand-note p {
-    margin: 0 75px;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }

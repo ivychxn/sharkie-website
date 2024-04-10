@@ -2,70 +2,12 @@
 @import url('./colors.css');
 
 @media only screen and (max-width: 750px) {
-    .nav {
-        display: flex;
-        height: 8vh;
-        justify-content: center;
-        align-items: center;
-        padding: 0 10px;
-        position: fixed;
-        width: 100%;
-        background-color: var(--wave-color);
-        top: 0;
-    }
-
-    .menu-icon {
-        top: 0;
-        position: fixed;
-        height: 8vh;
-        display: flex;
-        align-items: center;
-        padding: 0px 10px;
-    }
-
     .nav-title, a, a:visited, .menu-item {
         color: var(--header-color);
         font-family: 'Inter Bold';
         letter-spacing: 0px;
         text-transform: lowercase;
-        font-size: 4vh;
         text-decoration: none;
-    }
-
-    .overlay {
-        width: 100vw;
-        height: 100vh;
-        background-color: black;
-        opacity: 80%;
-        position: fixed;
-        top: 0;
-    }
-
-    .menu {
-        min-width: 200px;
-        width: 60vw;
-        height: 100vh;
-        background-color: var(--wave-color);
-        position: fixed;
-        top: 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .menu-close-icon {
-        padding: 10px;
-        align-self: flex-end;
-    }
-
-    .menu-item {
-        padding: 10px 30px;
-        align-self: flex-start;
-    }
-
-    .menu-link {
-        align-items: center;
-        display: flex;
-        padding-bottom: 10px;
     }
 
     .container {

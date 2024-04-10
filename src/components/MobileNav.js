@@ -1,31 +1,35 @@
 import React, { useState } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from "react-router-dom";
-import CloseIcon from '@mui/icons-material/Close';
 import NavMenu from "./NavMenu";
+import { AppBar, Box, Drawer, IconButton, ThemeProvider, Toolbar } from "@mui/material";
+import { createTheme } from '@mui/material/styles';
 
 const MobileNav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-    const onMenuClick = () => {
-        if (isMenuOpen) {
-            collapseMenu()
+    const theme = createTheme({
+        palette: {
+            primary: {
+                main: '#28374E',
+                contrastText: '#9199B7'
+            },
+        },
+        components: {
+            MuiDrawer: {
+                styleOverrides: {
+                    paper: {
+                        backgroundColor: "#28374E",
+                        color: "#9199B7",
+                    }
+                }
+            }
         }
-        else {
-            expandMenu()
-        }
-        setIsMenuOpen(!isMenuOpen)
-    }
+    });
 
-    const collapseMenu = () => {
-        document.documentElement.style.overflow = 'visible';
-        document.body.scroll = "yes";
-    }
-
-    const expandMenu = () => {
-        document.documentElement.style.overflow = 'hidden';
-        document.body.scroll = "no";
-    }
+    const toggleDrawer = (newOpen) => () => {
+        setIsMenuOpen(newOpen);
+    };
 
     const navLinks = [
         {
@@ -52,28 +56,40 @@ const MobileNav = () => {
 
     const renderNavLinks = () => {
         return (navLinks.map((navLink, idx) => {
-            return (<NavMenu props={navLink} key={idx}/>)
+            return (<NavMenu navLink={navLink} toggleDrawer={toggleDrawer} isSubItem={false} />)
         }))
     }
 
+    const navList = (
+        <Box theme={theme} sx={{ width: 250 }} role="presentation">
+            {renderNavLinks()}
+        </Box>
+    );
+
     return (
-        <nav>
-            <div className="nav">
-                <div className="nav-title">
-                    <Link to="/">ivy shark club</Link>
-                </div>
-            </div>
-            <div className="menu-icon" onClick={onMenuClick}>
-                <MenuIcon sx={{ height: '6vh', width: 'auto', color: '#9199B7' }} />
-            </div>
-            <div className="overlay" style={{ visibility: isMenuOpen ? 'visible' : 'hidden' }} onClick={onMenuClick} />
-            <div className="menu" style={{ visibility: isMenuOpen ? 'visible' : 'hidden' }}>
-                <div className="menu-close-icon" onClick={onMenuClick} >
-                    <CloseIcon sx={{ height: '6vh', width: 'auto', color: '#9199B7' }} />
-                </div>
-                {renderNavLinks()}
-            </div>
-        </nav>
+        <ThemeProvider theme={theme}>
+            <AppBar position="fixed" style={{ textAlign: 'center' }}>
+                <Toolbar>
+                    <IconButton
+                        size="medium"
+                        edge="start"
+                        color="inherit"
+                        aria-label="menu"
+                        sx={{ mr: 2, marginRight: '0', paddingTop: '2px', paddingBottom: '2px', position: 'absolute' }}
+                        onClick={toggleDrawer(true)}
+                    >
+                        <MenuIcon sx={{ maxHeight: '6vh', minHeight: '40px', width: 'auto' }} />
+                    </IconButton>
+                    <div style={{ width: "100%", boxSizing: 'border-box' }}><Link to="/">ivy shark club</Link></div>
+                </Toolbar>
+            </AppBar>
+            <Drawer
+                open={isMenuOpen}
+                onClose={toggleDrawer(false)}
+            >
+                {navList}
+            </Drawer>
+        </ThemeProvider>
     )
 };
 export default MobileNav
