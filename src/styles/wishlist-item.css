@@ -46,6 +46,8 @@
 
 .wl-item-header h2 {
     padding: 0 35px 0 0;
+    overflow-wrap: break-word;
+    overflow: auto;
 }
 
 .wl-item-content {
@@ -71,7 +73,7 @@ button {
     background-color: #3A4856;
     border-radius: 20px;
     cursor: pointer;
-    padding: 5px 10px;
+    padding: 5px 15px;
     margin: 10px;
     color: #FFFFFF;
     font-size: 1rem;
@@ -107,10 +109,14 @@ button:hover, .active {
     flex-wrap: wrap;
 }
 
-.react-slideshow-container {
-    float: left;
-    max-width: 325px;
-    min-width: 300px;
-    margin: auto;
-    padding: 25px;
+@media only screen and (max-width: 750px) {
+    img {
+        float: none;
+    }
+    .wl-img-indicators, .wl-tags, .wl-item-header {
+        justify-content: center;
+    }
+    .wl-item-container, .wl-item-header {
+        text-align: center;
+    }
 }

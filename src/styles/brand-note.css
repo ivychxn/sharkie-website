@@ -13,3 +13,14 @@
     text-align: center;
     padding-bottom: 25px;
 }
+
+@media only screen and (max-width: 750px) {
+    .brand-note {
+        padding: 5px;
+        text-align: center;
+    }
+    
+    .brand-note img {
+        float: none;
+    }
+}

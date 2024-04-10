@@ -43,7 +43,7 @@ export const wishlistItemData = [{
   },
   {
     itemName: 'nintendo switch joy cons',
-    price: 90,
+    price: 80,
     images: [{
       imagePath: require('../assets/pink-pink-joycon.png'),
       imgAlt: 'two pastel pink joycons',

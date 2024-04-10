@@ -60,7 +60,6 @@ const WishlistItem = ({ itemName, price, images, indicatorSectionText, descripti
         )
     }
 
-    // className={`indicator${activeImgIdx === idx ? ' active' : ''}`}
     return (
         <div className="wl-item-container">
             <article className="wl-item-content">
