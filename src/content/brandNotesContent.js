@@ -13,10 +13,10 @@
   {
     imagePath: require('../assets/uniqlo-aerie.png'),
     imgAlt: 'uniqlo and aerie logo',
-    content: (<>putting these together bc sizing sizing can be a gamble but generally the same for both<br />
+    content: (<>putting these together bc sizing sizing can be a gamble but generally the same for both. my mom spent a lot at uniqlo in japan alr and technically some of the clothes she got were mine so i don't really need more uniqlo for now i think<br/>
 
       <br />tops: XS/S
-      <br />bottoms: XS might fit but prob more S/26.
+      <br />bottoms: XS might fit but prob more S/26
       <br /> M Long for aerie flare bottoms tho</>)
   },
   {

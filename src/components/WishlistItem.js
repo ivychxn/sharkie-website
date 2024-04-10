@@ -37,7 +37,7 @@ const WishlistItem = ({ itemName, price, images, indicatorSectionText, descripti
             const indicatorText = image.indicatorText
             return (
                 <>
-                    {idx !== 0 ? (<div className="indicator-divider">|</div>) : ''}
+                    {idx !== 0 ? (<div key={idx} className="indicator-divider">|</div>) : ''}
                     <button className={activeImgIdx === idx ? 'active' : ''} onClick={() => { setActiveImgIdx(idx) }}>{indicatorText}</button>
                 </>
             )
@@ -63,17 +63,15 @@ const WishlistItem = ({ itemName, price, images, indicatorSectionText, descripti
     return (
         <div className="wl-item-container">
             <article className="wl-item-content">
-                <div className="tester">
-                    {renderImage()}
-                </div>
+                {renderImage()}
                 <div className="wl-item-header">
                     <h2>{itemName}</h2>
                     <Tag text={`$${price.toLocaleString()}`} tagColor={"blue"} />
                 </div>
 
-                <p>
+                <>
                     {description}
-                </p>
+                </>
 
                 {renderImgOptionSection()}
 

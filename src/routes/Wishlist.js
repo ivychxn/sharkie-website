@@ -56,6 +56,17 @@ const Wishlist = () => {
 
       {renderBrandNotes()}
 
+      <p>ok tbh i bought a lot of clothes alr so i technically don't need more bc i also don't really go out that often since i wfh. 
+        also there's like, hardly anything really do nowadays that doesn't require me to spend money and i love the idea of spending
+        money but i don't actually like how it makes the numbers in my bank account lower</p>
+        
+      <p>more on clothes: i wear silver not gold and i don't like diamonds it's a dumb industry. in this era if you buy me socks
+        ur dead to me i hate socks and i hate wearing real shoes i like wearing my lil flip flops and slides. i also don't like turtlenecks
+        they're not comfy idk why ppl just lie about it all the time. i'm also trying to move away from 
+        polyester and similar materials bc it's basically plastic and prob fast fashion type of unsustainable but also like, 
+        if it's a really good deal and it looks cute then what am i gonna do lmaoooo</p>
+      <p>oh but i draw the line at shein tho like i don't ever wanna own anything from them</p>
+
       <h1>things i want</h1>
       {renderWishlistItems()}
 

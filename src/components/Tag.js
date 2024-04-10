@@ -10,6 +10,10 @@ const Tag = ({ text, tagColor, size = '' }) => {
         greenBorder: '#74AA8A',
         lilac: '#D1B2D2',
         lilacBorder: '#94739C',
+        yellow: '#f4cb8d',
+        yellowBorder: '#EDBC72',
+        grey: '#A3A3A3',
+        greyBorder: '#757575',
     }
 
     return (
