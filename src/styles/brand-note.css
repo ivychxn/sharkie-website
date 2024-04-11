@@ -19,9 +19,6 @@
     .brand-note {
         padding: 5px;
         text-align: center;
-    }
-    
-    .brand-note img {
-        float: none;
+        display: inline;
     }
 }
