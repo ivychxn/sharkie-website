@@ -19,6 +19,9 @@
     .brand-note {
         padding: 5px;
         text-align: center;
-        display: inline;
+        display: block;
+    }
+    .brand-note p {
+        text-align: center;
     }
 }
