@@ -69,8 +69,14 @@ h2 {
 
 h3 {
     margin: 7px 0;
-    margin: 7px 0;
     font-size: 6rem;
+}
+
+h4 {
+    font-weight: normal;
+    letter-spacing: 0;
+    font-size: 1rem;
+    margin: 5px 0;
 }
 
 .title-only {
@@ -101,4 +107,11 @@ h3 {
     margin: 0 50px;
     text-align: center;
     padding-bottom: 50px;
+}
+
+.button-tag, .button-tag:hover {
+    background: none;
+    text-decoration: none;
+    font-family: 'Inter';
+    margin: 0;
 }

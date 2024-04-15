@@ -1,4 +1,5 @@
 export const wishlistItemData = [{
+  priority: 1,
   itemName: 'Kanken',
   price: 90,
   images: [{
@@ -41,6 +42,7 @@ export const wishlistItemData = [{
     tagColor: 'green'
   }]
 }, {
+  priority: 1,
   itemName: 'nintendo switch joy cons',
   price: 80,
   images: [{
@@ -71,6 +73,7 @@ export const wishlistItemData = [{
     tagColor: 'lilac'
   }]},
   {
+    priority: 1,
     itemName: 'wireless charging stand',
     price: 50,
     images: [{
@@ -90,6 +93,7 @@ export const wishlistItemData = [{
     }]
   }, 
   {
+    priority: 1,
     itemName: 'ruffwear swamp cooler dog harness',
     price: 70,
     images: [{
@@ -112,8 +116,9 @@ export const wishlistItemData = [{
     }]
   },
   {
+    priority: 1,
     itemName: 'any tile trackers or whatever',
-    price: '40 - 80',
+    price: 40,
     images: [{
       imagePath: require('../assets/tiles.png'),
       imgAlt: 'tile tracker',
@@ -131,8 +136,9 @@ export const wishlistItemData = [{
     }]
   },
   {
+    priority: 1,
     itemName: 'fujifilm refills',
-    price: '12 - 60',
+    price: 60,
     images: [{
       imagePath: require('../assets/fujifilm.png'),
       imgAlt: 'value pack of fujifilm instax mini film refills',
@@ -151,6 +157,7 @@ export const wishlistItemData = [{
       tagColor: 'lilac'
     }]
   }, {
+    priority: 1,
     itemName: 'POLÈNE Béri',
     price: 480,
     images: [{
@@ -185,8 +192,9 @@ export const wishlistItemData = [{
       tagColor: 'green'
     }]},
     {
+      priority: 1,
       itemName: 'shower filter',
-      price: '30',
+      price: 30,
       images: [{
         imagePath: require('../assets/shower-filter.png'),
         imgAlt: 'shower filter',
@@ -207,8 +215,9 @@ export const wishlistItemData = [{
       }]
     },
     {
+      priority: 1,
       itemName: 'rainbow sandals slides',
-      price: '64',
+      price: 64,
       images: [{
         imagePath: require('../assets/rainbow-slide.png'),
         imgAlt: 'Premier Leather Top Sole Single Layer Arch Cross Strap Slide in Sierra Brown',
@@ -235,8 +244,9 @@ export const wishlistItemData = [{
       }]
     },
     {
+      priority: 1,
       itemName: 'rainbow sandals double layer flip flop',
-      price: '75',
+      price: 75,
       images: [{
         imagePath: require('../assets/rainbow-sandals.png'),
         imgAlt: 'Luxury Leather - Double Layer Arch Support with a 3/4" Medium Strap in Nogales Wood',
@@ -264,8 +274,9 @@ export const wishlistItemData = [{
       }]
     },
     {
+      priority: 1,
       itemName: 'smol digital camera',
-      price: '50',
+      price: 50,
       images: [{
         imagePath: require('../assets/camera.png'),
         imgAlt: 'digital camera',

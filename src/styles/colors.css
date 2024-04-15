@@ -4,5 +4,24 @@
     --wave-color: #28374E;
     --hover-color: #3B4B74;
     --text-link-hover-color: #C9D0E8;
+    
+    --blue-tag-light: #87A8C7;
+    --blue-tag-dark: #4E6C88;
+    --blue-tag-darker: #223E58;
+
+    --green-tag-light: #B5EDC1;
+    --green-tag-dark: #74AA8A;
+    --green-tag-darker: #326A49;
+
+    --lilac-tag-light: #D1B2D2;
+    --lilac-tag-dark: #94739C;
+    --lilac-tag-darker: #4F2E57;
+
+    --yellow-tag-light: #f4cb8d;
+    --yellow-tag-dark: #DCA85B;
+    --yellow-tag-darker: #6C5127;
+
+    --grey-tag-light: #A3A3A3;
+    --grey-tag-dark: #757575;
+    --grey-tag-darker: #494949;
 }
-  
