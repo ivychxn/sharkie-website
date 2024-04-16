@@ -20,7 +20,7 @@ const Home = () => {
       color: '#d1b2d2'
     },
     {
-      linkName: 'test3',
+      linkName: '/food-reviews',
       text: 'test',
       color: '#8e495b'
     },

@@ -22,12 +22,12 @@
     background-color: var(--blue-tag-dark);
 }
 
-.blue-filter-tag.selected {
+.blue-filter-tag.selected:hover {
     background-color: var(--blue-tag-dark);
     border: 3px solid var(--blue-tag-darker);
 }
 
-.blue-filter-tag.selected:hover {
+.blue-filter-tag.selected {
     background-color: var(--blue-tag-light);
     border: 3px solid var(--blue-tag-dark);
 }
@@ -42,12 +42,12 @@
     background-color: var(--green-tag-dark);
 }
 
-.green-filter-tag.selected {
+.green-filter-tag.selected:hover {
     background-color: var(--green-tag-dark);
     border: 3px solid var(--green-tag-darker);
 }
 
-.green-filter-tag.selected:hover {
+.green-filter-tag.selected {
     background-color: var(--green-tag-light);
     border: 3px solid var(--green-tag-dark);
 }
@@ -62,12 +62,12 @@
     background-color: var(--lilac-tag-dark);
 }
 
-.lilac-filter-tag.selected {
+.lilac-filter-tag.selected:hover {
     background-color: var(--lilac-tag-dark);
     border: 3px solid var(--lilac-tag-darker);
 }
 
-.lilac-filter-tag.selected:hover {
+.lilac-filter-tag.selected {
     background-color: var(--lilac-tag-light);
     border: 3px solid var(--lilac-tag-dark);
 }
@@ -82,12 +82,12 @@
     background-color: var(--yellow-tag-dark);
 }
 
-.yellow-filter-tag.selected {
+.yellow-filter-tag.selected:hover {
     background-color: var(--yellow-tag-dark);
     border: 3px solid var(--yellow-tag-darker);
 }
 
-.yellow-filter-tag.selected:hover {
+.yellow-filter-tag.selected {
     background-color: var(--yellow-tag-light);
     border: 3px solid var(--yellow-tag-dark);
 }
@@ -102,12 +102,12 @@
     background-color: var(--grey-tag-dark);
 }
 
-.grey-filter-tag.selected {
+.grey-filter-tag.selected:hover {
     background-color: var(--grey-tag-dark);
     border: 3px solid var(--grey-tag-darker);
 }
 
-.grey-filter-tag.selected:hover {
+.grey-filter-tag.selected {
     background-color: var(--grey-tag-light);
     border: 3px solid var(--grey-tag-dark);
 }
@@ -243,10 +243,6 @@ button:hover, .active {
     padding-bottom: 15px;
 }
 
-.tester-class {
-    color: #FFFFFF;
-    border: 1px solid red;
-}
 
 @media only screen and (max-width: 750px) {
     img {
@@ -257,5 +253,19 @@ button:hover, .active {
     }
     .wl-item-container, .wl-item-header {
         text-align: center;
+    }
+    .wl-item-header h2 {
+        padding: 0;
+    }
+    .filter-sort-section {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .filter-section {
+        align-items: center;
+    }
+    .tag-list {
+        justify-content: center;
     }
 }

@@ -27,7 +27,7 @@ const WishlistItem = ({ itemName, price, images, indicatorSectionText, descripti
         const { imagePath, imgAlt } = images[activeImgIdx]
         return (
             <div className="each-slide-effect">
-                <img src={imagePath} alt={imgAlt} />
+                <img src={require(`../assets/wishlist/${imagePath}`)} alt={imgAlt} />
             </div>
         )
     }

@@ -1,0 +1,29 @@
+@import url('../fonts/fonts.css');
+
+.me {
+    padding-bottom: 50px;
+}
+
+.me img {
+    width: 300px;
+}
+
+.me-left {
+    float: left;
+}
+
+.me-right {
+    float: right;
+}
+
+@media only screen and (max-width: 750px) {
+    .me-left, .me-right {
+        float: none;
+    }
+    .me, h2 {
+        text-align: center;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+}

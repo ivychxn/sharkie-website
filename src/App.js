@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Home from "./routes/Home";
 import Wishlist from "./routes/Wishlist";
+import FoodReviews from "./routes/FoodReviews";
 import About from "./routes/About";
 import useWindowDimensions from "./hooks/useWindowDimensions";
 import MobileNav from "./components/MobileNav";
@@ -32,10 +33,7 @@ export default function App() {
               window.location.replace('https://www.youtube.com/watch?v=xvFZjo5PgG0');
               return null;
             }} />
-            <Route path="test2" Component={() => {
-              window.location.replace('https://www.youtube.com/watch?v=BbeeuzU5Qc8');
-              return null;
-            }} />
+            <Route path="food-reviews" element={<FoodReviews />} />
 
             <Route path="test3" Component={() => {
               window.location.replace('https://docs.google.com/document/d/1s5O26UIqo9aC00q52eibniiEC5xYrRpdiDY8qhdsmRo/edit?usp=sharing');

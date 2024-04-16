@@ -15,10 +15,6 @@ const Wishlist = () => {
 
   const tagCategories = [
     {
-      text: 'misc',
-      tagColor: 'yellow',
-      selected: false
-    }, {
       text: 'dog',
       tagColor: 'grey',
       selected: false
@@ -31,12 +27,18 @@ const Wishlist = () => {
       text: 'fashion',
       tagColor: 'green',
       selected: false
-    }
+    },
+    {
+      text: 'misc',
+      tagColor: 'yellow',
+      selected: false
+    }, 
   ]
 
   const [selectedSortOption, setSelectedSortOption] = useState('priority')
   const [sortedWishlist, setSortedWishlist] = useState(wishlistItemData)
   const [selectedTags, setSelectedTags] = useState(tagCategories)
+  // const [isResetAllSelected, setIsResetAllSelected] = useState(false)
 
   useEffect(() => {
     setSortedWishlist(handleSort()) // eslint-disable-next-line
@@ -65,6 +67,14 @@ const Wishlist = () => {
       setSortedWishlist(handleSort(wishlistItemData))
     }
   };
+
+  const resetFilter = () => {
+    setSortedWishlist(handleSort(wishlistItemData))
+    const tagFilters = [...selectedTags];
+    tagFilters.forEach((tag) => {
+       tag.selected = false
+      })
+  }
 
   const renderFilterTags = () => {
     return (selectedTags.map((tag, idx) => {
@@ -165,6 +175,15 @@ const Wishlist = () => {
         <div className="filter-section">
           <h4>filter by tags:</h4>
           <div className="tag-list">
+          <button className="button-tag" onClick={resetFilter}>
+          <Tag
+            text={'reset all'}
+            tagColor={'blue'}
+            size={'small'}
+            type={'filter'}
+            selected={false}
+          />
+        </button>
             {renderFilterTags()}
           </div>
         </div>
