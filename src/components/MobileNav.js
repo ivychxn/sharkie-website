@@ -48,6 +48,9 @@ const MobileNav = () => {
                 name: 'wishlist',
                 link: '/wishlist'
             }, {
+                name: 'food reviews',
+                link: '/food-reviews'
+            },{
                 name: 'about',
                 link: '/about'
             }],

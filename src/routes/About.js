@@ -15,7 +15,10 @@ const About = () => {
         <p>hi, my name is ivy like the taylor swift song on evermore. welcome to my shark club - can you tell that i like sharks? </p>
 
         <p> 
-          let's talk some quick facts: i love jasmine milk tea less sweet, half ice. i don't like to capitalize when i text. my 
+          this is my blog / portfolio / sandbox / info dump / whatever u wanna call it. clearly i haven't coded finished coding
+          this website so back off if ur gonna be annoying about it.</p>
+          <p>
+          anyways let's talk some quick facts: i love jasmine milk tea less sweet, half ice. i don't like to capitalize when i text. my 
           favorite color is red.
           
           </p>
@@ -44,13 +47,15 @@ const About = () => {
         
       </div>
 
-      <h2>software engineering era</h2>
+      <h2>academic era</h2>
       <p style={{ paddingBottom: '50px' }}>
-        i've been full time in the tech industry since i graduated in june 2022, but my experience with coding goes way beyond that. i started coding in 6th grade so it's been. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        i hate school btw
       </p>
 
-
-      <h1>things i want</h1>
+      <h2>professional era</h2>
+      <p style={{ paddingBottom: '50px' }}>
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      </p>
 
     </>
   )

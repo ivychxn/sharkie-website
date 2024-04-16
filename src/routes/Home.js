@@ -21,7 +21,7 @@ const Home = () => {
     },
     {
       linkName: '/food-reviews',
-      text: 'test',
+      text: 'food reviews',
       color: '#8e495b'
     },
     {
