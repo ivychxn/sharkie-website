@@ -1,14 +1,13 @@
 import React from "react";
 import FunHeader from "../components/FunHeader";
 import "../styles/about.css"
+import { sharkFacts } from "../content/sharkFacts";
 
 
 const About = () => {
-  const funFactText = "did you know the shortfin mako shark is the fastet shark alive? bro can go 43mph vrooooom vroooooooooom"
-
   return (
     <>
-      <FunHeader text={funFactText} />
+      <FunHeader text={sharkFacts[Math.floor(Math.random()*3)]} />
       <h1>about</h1>
       <div className="me">
         <img src={require('../assets/nyc-me.png')} alt={'me in nyc'} className="me-left" />
@@ -41,8 +40,7 @@ const About = () => {
         <p>
         for more info on how i create this site - this entire thing is just a react app tbh. i design pretty much everything 
         on <a href="https://www.figma.com/">figma </a> and i use <a href="https://www.remove.bg/">remove.bg</a> religiously for  
-        most of the images to look good. i also made my sister draw my shark icons and images for me bc 
-        she's good at stuff like that
+        most of the images to look good. i also told my sister to draw shark icons and images for me but she hasn't done it yet soooo
         </p>
         
       </div>

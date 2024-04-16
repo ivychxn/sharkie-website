@@ -9,10 +9,9 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import Tag from "../components/Tag";
+import { sharkFacts } from "../content/sharkFacts";
 
 const Wishlist = () => {
-  const funFactText = "did you know the shortfin mako shark is the fastet shark alive? bro can go 43mph vrooooom vroooooooooom "
-
   const tagCategories = [
     {
       text: 'dog',
@@ -144,7 +143,7 @@ const Wishlist = () => {
 
   return (
     <section>
-      <FunHeader text={funFactText} />
+      <FunHeader text={sharkFacts[Math.floor(Math.random()*3)]} />
       <h1>capitalism</h1>
 
       <p className="intro-p">
