@@ -16,7 +16,10 @@ export const wishlistItemData = [
     </>),
     tags: [{
       text: 'electronics',
-      tagColor: 'lilac'
+      tagColor: 'periwinkle'
+    }, {
+      text: 'luv having extra',
+      tagColor: 'orange'
     }]
   },
 
@@ -37,7 +40,7 @@ export const wishlistItemData = [
     </>),
     tags: [{
       text: 'electronics',
-      tagColor: 'lilac'
+      tagColor: 'periwinkle'
     }]
   },
 
@@ -59,8 +62,11 @@ export const wishlistItemData = [
       </p>
     </>),
     tags: [{
-      text: 'electronics',
-      tagColor: 'lilac'
+      text: 'misc',
+      tagColor: 'grey'
+    },{
+      text: 'luv having extra',
+      tagColor: 'orange'
     }]
   },
 
@@ -90,7 +96,7 @@ export const wishlistItemData = [
     </>),
     tags: [{
       text: 'fashion',
-      tagColor: 'green'
+      tagColor: 'pink'
     }]
   },
 
@@ -117,7 +123,7 @@ export const wishlistItemData = [
     </>),
     tags: [{
       text: 'electronics',
-      tagColor: 'lilac'
+      tagColor: 'periwinkle'
     }]
   },
 
@@ -155,7 +161,7 @@ export const wishlistItemData = [
     </>),
     tags: [{
       text: 'fashion',
-      tagColor: 'green'
+      tagColor: 'pink'
     }]
   },
 
@@ -200,7 +206,7 @@ export const wishlistItemData = [
     </>),
     tags: [{
       text: 'fashion',
-      tagColor: 'green'
+      tagColor: 'pink'
     }]
   },
 
@@ -224,7 +230,7 @@ export const wishlistItemData = [
     </>),
     tags: [{
       text: 'dog',
-      tagColor: 'grey'
+      tagColor: 'teal'
     }]
   },
 
@@ -257,7 +263,7 @@ export const wishlistItemData = [
     </>),
     tags: [{
       text: 'electronics',
-      tagColor: 'lilac'
+      tagColor: 'periwinkle'
     }]
   },
   {
@@ -287,12 +293,155 @@ export const wishlistItemData = [
     </>),
     tags: [{
       text: 'fashion',
-      tagColor: 'green'
+      tagColor: 'pink'
     }]
   },
 
   {
     priority: 11,
+    itemName: 'acne patches',
+    price: 13,
+    images: [{
+      imagePath: 'patches/hero-mighty-patch.png',
+      imgAlt: 'mighty patch by hero cosmetics',
+      indicatorText: 'hero - mighty patch'
+    },{
+      imagePath: 'patches/cosrx-master-patch-set.png',
+      imgAlt: 'cosrx - master patch set',
+      indicatorText: 'cosrx - master patch set'
+    },{
+      imagePath: 'patches/peach-slices-dark-spot-microdarts.png',
+      imgAlt: 'peach slices dark spot microdarts',
+      indicatorText: 'peach slices - dark spot microdarts'
+    },{
+      imagePath: 'patches/peach-slices-deep-blemish-microdarts.png',
+      imgAlt: 'peach slices dark blemish microdarts',
+      indicatorText: 'peach slices - dark blemish microdarts'
+    },{
+      imagePath: 'patches/peach-slices-acne-spot-dots.png',
+      imgAlt: 'peach slices - acne spot dots',
+      indicatorText: 'peach slices - acne spot dots'
+    },],
+    indicatorSectionText: 'options',
+    description: (<>
+      <p>
+        always wanted to try the early stage ones or whatever but any patches will do. 
+        not really that picky on brands, but peach slices, hero cosmetics, cosrx would
+        be cool
+      </p>
+    </>),
+    tags: [{
+      text: 'beauty',
+      tagColor: 'green'
+    },{
+      text: 'luv having extra',
+      tagColor: 'orange'
+    }]
+  },
+
+  
+  {
+    priority: 12,
+    itemName: 'The Ordinary - Glycolic Acid 7% Exfoliating Toner',
+    price: 13,
+    images: [{
+      imagePath: 'glycolic-toner.png',
+      imgAlt: 'The Ordinary - Glycolic Acid 7% Exfoliating Toner',
+      indicatorText: ''
+    }],
+    indicatorSectionText: '',
+    description: (<>
+      <p>i've been influenced i want this just to try
+      </p>
+    </>),
+    tags: [{
+      text: 'beauty',
+      tagColor: 'green'
+    }]
+  },
+  
+  
+  {
+    priority: 13,
+    itemName: 'Dionis Vanilla Bean Goat Milk Hand Soap',
+    price: 8,
+    images: [{
+      imagePath: 'goat-milk-hand-soap.png',
+      imgAlt: 'dionis - vanilla goat milk hand soap',
+      indicatorText: ''
+    }],
+    indicatorSectionText: '',
+    description: (<>
+      <p><a href="https://dionisgmskincare.com/products/vanilla-bean-goat-milk-hand-soap">dionis website</a></p>
+      <p>
+        this is my favorite hand soap it feels so soft and smells so good.
+      </p>
+    </>),
+    tags: [{
+      text: 'misc',
+      tagColor: 'grey'
+    },{
+      text: 'luv having extra',
+      tagColor: 'orange'
+    }]
+  },
+  
+  
+  {
+    priority: 14,
+    itemName: 'Dionis - Vanilla Bean Bath & Shower Goat Milk Crème',
+    price: 25,
+    images: [{
+      imagePath: 'goat-milk-shower.png',
+      imgAlt: 'dionis - vanilla goat milk shower creme',
+      indicatorText: ''
+    }],
+    indicatorSectionText: '',
+    description: (<>
+      <p>
+        <a href="https://dionisgmskincare.com/products/vanilla-bean-bath-shower-goat-milk-creme">dionis website</a>
+      </p>
+      <p>
+        such a feel good item bc it smells so nice. i love this brand 
+        and i saw it at costco originally but it's no longer at costco. 
+        i saw this brand is also at ulta but not all the items are there
+        so i think the only way is just online directly
+      </p>
+    </>),
+    tags: [{
+      text: 'misc',
+      tagColor: 'grey'
+    },{
+      text: 'luv having extra',
+      tagColor: 'orange'
+    }]
+  },
+  {
+    priority: 15,
+    itemName: 'milkis - orig flavor',
+    price: 5,
+    images: [{
+      imagePath: 'milkis.png',
+      imgAlt: '6pk milkis in orig flavor',
+      indicatorText: ''
+    }],
+    indicatorSectionText: '',
+    description: (<>
+      <p>
+        i loooooove milkis. og flavor best flavorrrrr
+      </p>
+    </>),
+    tags: [{
+      text: 'food',
+      tagColor: 'yellow'
+    },{
+      text: 'luv having extra',
+      tagColor: 'orange'
+    }]
+  },
+  
+  {
+    priority: 30,
     itemName: 'shower filter',
     price: 30,
     images: [{
@@ -311,7 +460,10 @@ export const wishlistItemData = [
     </>),
     tags: [{
       text: 'misc',
-      tagColor: 'yellow'
+      tagColor: 'grey'
+    },{
+      text: 'luv having extra',
+      tagColor: 'orange'
     }]
   },
 ]

@@ -1,0 +1,246 @@
+@import url('./colors.css');
+
+.price-tag {
+    max-width: 420px;
+    display: flex;
+    border-radius: 15px;
+    justify-content: left;
+    align-items: center;
+    color: var(--bg-color);
+    width: fit-content;
+    margin: 5px 10px;
+}
+
+.blue-price-tag, .blue-filter-tag {
+    background-color: var(--blue-tag-light);
+    border-right: 1px solid var(--blue-tag-medium);
+    border-bottom: 2px solid var(--blue-tag-medium);
+}
+
+.blue-filter-tag:hover {
+    background-color: var(--blue-tag-medium);
+}
+
+.blue-filter-tag.selected:hover {
+    background-color: var(--blue-tag-medium);
+    border: 3px solid var(--blue-tag-dark);
+}
+
+.blue-filter-tag.selected {
+    background-color: var(--blue-tag-light);
+    border: 3px solid var(--blue-tag-medium);
+}
+
+.pink-price-tag, .pink-filter-tag {
+    background-color: var(--pink-tag-light);
+    border-right: 1px solid var(--pink-tag-medium);
+    border-bottom: 2px solid var(--pink-tag-medium);
+}
+
+.pink-filter-tag:hover {
+    background-color: var(--pink-tag-medium);
+}
+
+.pink-filter-tag.selected:hover {
+    background-color: var(--pink-tag-medium);
+    border: 3px solid var(--pink-tag-dark);
+}
+
+.pink-filter-tag.selected {
+    background-color: var(--pink-tag-light);
+    border: 3px solid var(--pink-tag-medium);
+}
+
+.lilac-price-tag, .lilac-filter-tag {
+    background-color: var(--lilac-tag-light);
+    border-right: 1px solid var(--lilac-tag-medium);
+    border-bottom: 2px solid var(--lilac-tag-medium);
+}
+
+.lilac-filter-tag:hover {
+    background-color: var(--lilac-tag-medium);
+}
+
+.lilac-filter-tag.selected:hover {
+    background-color: var(--lilac-tag-medium);
+    border: 3px solid var(--lilac-tag-dark);
+}
+
+.lilac-filter-tag.selected {
+    background-color: var(--lilac-tag-light);
+    border: 3px solid var(--lilac-tag-medium);
+}
+
+.lavender-price-tag, .lavender-filter-tag {
+    background-color: var(--lavender-tag-light);
+    border-right: 1px solid var(--lavender-tag-medium);
+    border-bottom: 2px solid var(--lavender-tag-medium);
+}
+
+.lavender-filter-tag:hover {
+    background-color: var(--lavender-tag-medium);
+}
+
+.lavender-filter-tag.selected:hover {
+    background-color: var(--lavender-tag-medium);
+    border: 3px solid var(--lavender-tag-dark);
+}
+
+.lavender-filter-tag.selected {
+    background-color: var(--lavender-tag-light);
+    border: 3px solid var(--lavender-tag-medium);
+}
+
+.periwinkle-price-tag, .periwinkle-filter-tag {
+    background-color: var(--periwinkle-tag-light);
+    border-right: 1px solid var(--periwinkle-tag-medium);
+    border-bottom: 2px solid var(--periwinkle-tag-medium);
+}
+
+.periwinkle-filter-tag:hover {
+    background-color: var(--periwinkle-tag-medium);
+}
+
+.periwinkle-filter-tag.selected:hover {
+    background-color: var(--periwinkle-tag-medium);
+    border: 3px solid var(--periwinkle-tag-dark);
+}
+
+.periwinkle-filter-tag.selected {
+    background-color: var(--periwinkle-tag-light);
+    border: 3px solid var(--periwinkle-tag-medium);
+}
+
+.teal-price-tag, .teal-filter-tag {
+    background-color: var(--teal-tag-light);
+    border-right: 1px solid var(--teal-tag-medium);
+    border-bottom: 2px solid var(--teal-tag-medium);
+}
+
+.teal-filter-tag:hover {
+    background-color: var(--teal-tag-medium);
+}
+
+.teal-filter-tag.selected:hover {
+    background-color: var(--teal-tag-medium);
+    border: 3px solid var(--teal-tag-dark);
+}
+
+.teal-filter-tag.selected {
+    background-color: var(--teal-tag-light);
+    border: 3px solid var(--teal-tag-medium);
+}
+
+.green-price-tag, .green-filter-tag {
+    background-color: var(--green-tag-light);
+    border-right: 1px solid var(--green-tag-medium);
+    border-bottom: 2px solid var(--green-tag-medium);
+}
+
+.green-filter-tag:hover {
+    background-color: var(--green-tag-medium);
+}
+
+.green-filter-tag.selected:hover {
+    background-color: var(--green-tag-medium);
+    border: 3px solid var(--green-tag-dark);
+}
+
+.green-filter-tag.selected {
+    background-color: var(--green-tag-light);
+    border: 3px solid var(--green-tag-medium);
+}
+
+.yellow-price-tag, .yellow-filter-tag {
+    background-color: var(--yellow-tag-light);
+    border-right: 1px solid var(--yellow-tag-medium);
+    border-bottom: 2px solid var(--yellow-tag-medium);
+}
+
+.yellow-filter-tag:hover {
+    background-color: var(--yellow-tag-medium);
+}
+
+.yellow-filter-tag.selected:hover {
+    background-color: var(--yellow-tag-medium);
+    border: 3px solid var(--yellow-tag-dark);
+}
+
+.yellow-filter-tag.selected {
+    background-color: var(--yellow-tag-light);
+    border: 3px solid var(--yellow-tag-medium);
+}
+
+.orange-price-tag, .orange-filter-tag {
+    background-color: var(--orange-tag-light);
+    border-right: 1px solid var(--orange-tag-medium);
+    border-bottom: 2px solid var(--orange-tag-medium);
+}
+
+.orange-filter-tag:hover {
+    background-color: var(--orange-tag-medium);
+}
+
+.orange-filter-tag.selected:hover {
+    background-color: var(--orange-tag-medium);
+    border: 3px solid var(--orange-tag-dark);
+}
+
+.orange-filter-tag.selected {
+    background-color: var(--orange-tag-light);
+    border: 3px solid var(--orange-tag-medium);
+}
+
+.grey-price-tag, .grey-filter-tag {
+    background-color: var(--grey-tag-light);
+    border-right: 1px solid var(--grey-tag-medium);
+    border-bottom: 2px solid var(--grey-tag-medium);
+}
+
+.grey-filter-tag:hover {
+    background-color: var(--grey-tag-medium);
+}
+
+.grey-filter-tag.selected:hover {
+    background-color: var(--grey-tag-medium);
+    border: 3px solid var(--grey-tag-dark);
+}
+
+.grey-filter-tag.selected {
+    background-color: var(--grey-tag-light);
+    border: 3px solid var(--grey-tag-medium);
+}
+
+.price-tag.small {
+    min-height: 25px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.filter-tag {
+    min-height: 25px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    max-width: 420px;
+    display: flex;
+    border-radius: 15px;
+    justify-content: left;
+    align-items: center;
+    color: var(--bg-color);
+    width: fit-content;
+    margin: 5px 10px;
+}
+
+.price-tag {
+    min-height: 40px;
+    font-size: 1.1rem;
+}
+
+.price-tag ul {
+    margin: 0 5px 0 20px;
+    padding: 0 5px 0 5px;
+}
+
+.price-tag li::marker {
+    color: var(--bg-color);
+}

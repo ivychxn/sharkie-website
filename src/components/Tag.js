@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/wishlist-item.css"
+import "../styles/tags.css"
 
 const Tag = ({ text, tagColor, size = '', type = 'price', selected = false }) => {
 

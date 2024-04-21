@@ -14,30 +14,45 @@ import { sharkFacts } from "../content/sharkFacts";
 const Wishlist = () => {
   const tagCategories = [
     {
-      text: 'dog',
-      tagColor: 'grey',
-      selected: false
-    }, {
-      text: 'electronics',
-      tagColor: 'lilac',
+      text: 'fashion',
+      tagColor: 'pink',
       selected: false
     },
     {
-      text: 'fashion',
+      text: 'beauty',
       tagColor: 'green',
       selected: false
     },
     {
-      text: 'misc',
-      tagColor: 'yellow',
+      text: 'dog',
+      tagColor: 'teal',
       selected: false
     }, 
+    {
+      text: 'electronics',
+      tagColor: 'periwinkle',
+      selected: false
+    },
+    {
+      text: 'food',
+      tagColor: 'yellow',
+      selected: false
+    },
+    {
+      text: 'luv having extra',
+      tagColor: 'orange',
+      selected: false
+    },
+    {
+      text: 'misc',
+      tagColor: 'grey',
+      selected: false
+    },
   ]
 
   const [selectedSortOption, setSelectedSortOption] = useState('priority')
   const [sortedWishlist, setSortedWishlist] = useState(wishlistItemData)
   const [selectedTags, setSelectedTags] = useState(tagCategories)
-  // const [isResetAllSelected, setIsResetAllSelected] = useState(false)
 
   useEffect(() => {
     setSortedWishlist(handleSort()) // eslint-disable-next-line
@@ -155,7 +170,9 @@ const Wishlist = () => {
       <p className="intro-p">
         if something is lower priority i will specify. i have specific items to scroll through but first i'm gonna put some info about stuff like sizing and general stores or brands that i like to go to</p>
 
+      <div style={{display: 'flex', flexDirection: 'column'}}>
       {renderBrandNotes()}
+      </div>
 
       <p>ok tbh i bought a lot of clothes alr so i technically don't need more bc i also don't really go out that often since i wfh.
         also there's like, hardly anything really do nowadays that doesn't require me to spend money and i love the idea of spending

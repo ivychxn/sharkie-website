@@ -5,23 +5,45 @@
     --hover-color: #3B4B74;
     --text-link-hover-color: #C9D0E8;
     
-    --blue-tag-light: #87A8C7;
-    --blue-tag-dark: #4E6C88;
-    --blue-tag-darker: #223E58;
-
-    --green-tag-light: #B5EDC1;
-    --green-tag-dark: #74AA8A;
-    --green-tag-darker: #326A49;
+    /* tag colors */
+    --pink-tag-light: #F2BDD3;
+    --pink-tag-medium: #AF8094;
+    --pink-tag-dark: #714658;
 
     --lilac-tag-light: #D1B2D2;
-    --lilac-tag-dark: #94739C;
-    --lilac-tag-darker: #4F2E57;
+    --lilac-tag-medium: #94739C;
+    --lilac-tag-dark: #4F2E57;
 
-    --yellow-tag-light: #f4cb8d;
-    --yellow-tag-dark: #DCA85B;
-    --yellow-tag-darker: #6C5127;
+    --lavender-tag-light: #B5A1DF;
+    --lavender-tag-medium: #816AB2;
+    --lavender-tag-dark: #433461;
+    
+    --periwinkle-tag-light: #B2C2F9;
+    --periwinkle-tag-medium: #64719C;
+    --periwinkle-tag-dark: #394778;
+
+    --blue-tag-light: #87A8C7;
+    --blue-tag-medium: #4E6C88;
+    --blue-tag-dark: #223E58;
+    
+    --teal-tag-light: #B9F1EE;
+    --teal-tag-medium: #82CAC6;
+    --teal-tag-dark: #45908C;
+
+    --green-tag-light: #B5EDC1;
+    --green-tag-medium: #74AA8A;
+    --green-tag-dark: #326A49;
+
+    --yellow-tag-light: #E7E4A9;
+    --yellow-tag-medium: #C0BD75;
+    --yellow-tag-dark: #807E50;
+
+    --orange-tag-light: #f4cb8d;
+    --orange-tag-medium: #DCA85B;
+    --orange-tag-dark: #6C5127;
 
     --grey-tag-light: #A3A3A3;
-    --grey-tag-dark: #757575;
-    --grey-tag-darker: #494949;
+    --grey-tag-medium: #757575;
+    --grey-tag-dark: #494949;
+
 }
