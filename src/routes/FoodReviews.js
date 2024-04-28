@@ -36,6 +36,10 @@ const FoodReviews = () => {
           waitlist or where it's near impossible to get your order taken (and then they forget to put in your order) 
           so it must be said. 
           </li>
+          <li><b>consistency.</b> a good restaurant will be consistent. i don't wanna go to a place where i need to
+          hope that i get lucky or else the food will be bad. i also don't wanna go to a place where their posted 
+          hours don't actually match up with when they're open. crazy huh?
+          </li>
           <li><b>vibes.</b> does the overall vibe of the place seem good? can i recommend this place to other people and
           not have to preface it with just trust me bro? ofc there's different vibes needed for different occasions but
           at the end of the day, when i walk into the restaurant, do i get a good feeling about it?
