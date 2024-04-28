@@ -1,13 +1,13 @@
 import React from "react";
-import FunHeader from "../components/FunHeader";
+// import FunHeader from "../components/FunHeader";
 import "../styles/about.css"
-import { sharkFacts } from "../content/sharkFacts";
+// import { sharkFacts } from "../content/sharkFacts";
 
 
 const About = () => {
   return (
     <>
-      <FunHeader text={sharkFacts[Math.floor(Math.random()*3)]} />
+      {/* <FunHeader text={sharkFacts[Math.floor(Math.random()*3)]} /> */}
       <h1>about</h1>
       <div className="me">
         <img src={require('../assets/nyc-me.png')} alt={'me in nyc'} className="me-left" />
@@ -17,9 +17,9 @@ const About = () => {
           this is my blog / portfolio / sandbox / info dump / whatever u wanna call it. clearly i haven't coded finished coding
           this website so back off if ur gonna be annoying about it.</p>
           <p>
-          anyways let's talk some quick facts: i love jasmine milk tea less sweet, half ice. i don't like to capitalize when i text. my 
-          favorite color is red.
-          
+          anyways let's talk some quick facts: i love jasmine milk tea less sweet, half ice. i don't like to capitalize when i type. my 
+          favorite color is red. i have a shiba inu / korean jindo rescue mix and she's the cutest dog ever. my toxic trait is that if 
+          i have to capitlize a letter, i will use caps lock instead of holding shift
           </p>
       </div>
       <h2>the shark club - some technical stuff</h2>
@@ -48,11 +48,6 @@ const About = () => {
       <h2>academic era</h2>
       <p style={{ paddingBottom: '50px' }}>
         i hate school btw
-      </p>
-
-      <h2>professional era</h2>
-      <p style={{ paddingBottom: '50px' }}>
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       </p>
 
     </>

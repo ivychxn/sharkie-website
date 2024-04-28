@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import FunHeader from "../components/FunHeader";
 import BrandNote from "../components/BrandNote";
 import { brandNotesContent } from "../content/brandNotesContent";
 import { wishlistItemData } from "../content/wishlistItemData";
@@ -9,7 +8,6 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import Tag from "../components/Tag";
-import { sharkFacts } from "../content/sharkFacts";
 
 const Wishlist = () => {
   const tagCategories = [
@@ -158,18 +156,17 @@ const Wishlist = () => {
 
   return (
     <section>
-      <FunHeader text={sharkFacts[Math.floor(Math.random()*3)]} />
+      {/* <FunHeader text={sharkFacts[Math.floor(Math.random()*3)]} /> */}
       <h1>capitalism</h1>
 
       <p className="intro-p">
-        see it's kinda complicated bc i feel like if i really want or need something, i just buy it myself. so ig this list is like, all the stuff that i kinda want but don't actually wanna buy instantly??? idk maybe it's just stuff i'll eventually buy or stuff that i'm waiting to be on sale or just stuff i want will to buy so i don't have to buy it<br /><br />
-
-        there's a lot of things i want and there's also a lot of things i don't want so i made this kinda checklist thing so it's easy to keep updated and avoid multiple items</p>
+        see it's a lil complicated bc if i really want or need something, i just buy it myself 
+        so there's not really anything that i want that badly on this list oops.
+        ig this list is like, all the stuff that i kinda want but not enough to get it instantly 
+        or i'm just waiting for it to go on sale. some stuff i just list it so will can buy it
+        so then i don't have to</p>
 
       <h1>guidelines n stuff</h1>
-      <p className="intro-p">
-        if something is lower priority i will specify. i have specific items to scroll through but first i'm gonna put some info about stuff like sizing and general stores or brands that i like to go to</p>
-
       <div style={{display: 'flex', flexDirection: 'column'}}>
       {renderBrandNotes()}
       </div>
