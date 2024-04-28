@@ -12,14 +12,15 @@ const FoodReviews = () => {
         something there (usually the food) that just sucks reallllly baddd and you just never go again LOL 
         but when it comes to good restaurants, I feel like there's different kinds of <i>good</i> restaurants.
         so what do i look for to judge if a restaurant is good value? what makes me wanna go back?
-      </p>
-      <p style={{ margin: '0 50px', paddingBottom: '50px' }}>
         let's make one thing clear tho: at bare minimum, the food has to be decent. unless there's some event, 
         there is no way i'm going to a restaurant solely for ~vibes~ and then knowingly and willingly eat shit food.
+      </p>
+      <p style={{ margin: '0 50px', paddingBottom: '50px' }}>
         a good restaurant needs to be good in at least one of these qualities, and better ones will be good at multiple.
         the top tier restaurants will stand out bc they excel in every category. 
         <ul>
-          <li><b>food. </b> duh right? the better the food, the better i think the restaurant is.
+          <li><b>food. </b> bare minimum the food has to be decent but the better the food, 
+          the better i think the restaurant is. duh right?
           </li>
           <li><b>portion size.</b> i want to eat at a place and leave not hungry if i order a decent amount. 
           i don't mind if there's a few tiny dishes in a 7 course meal, but it better not be a tiny dish 
