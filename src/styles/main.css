@@ -12,6 +12,11 @@
     }
 }
 
+:root {
+    scrollbar-color: var(--wave-color) var(--bg-color);
+    scrollbar-width: thin;
+}
+
 body {
     background-color: var(--bg-color);
     color: white;

@@ -24,7 +24,7 @@ export const wishlistItemData = [
   },
 
   {
-    priority: 2,
+    priority: 9.5,
     itemName: 'wireless charging stand',
     price: 50,
     images: [{
@@ -461,9 +461,6 @@ export const wishlistItemData = [
     tags: [{
       text: 'misc',
       tagColor: 'grey'
-    },{
-      text: 'luv having extra',
-      tagColor: 'orange'
     }]
   },
 ]

@@ -6,9 +6,9 @@ const FoodReviews = () => {
   return (
     <>
       {/* <FunHeader text={sharkFacts[Math.floor(Math.random()*3)]} /> */}
-      <h1>i have strong opinions on food</h1>
+      <h1>just yappin about food</h1>
       <p style={{ margin: '0 50px', textAlign: 'center', paddingBottom: '50px' }}>
-        Obv there are good restaurants and bad restaurants and it's pretty easy to judge bad restaurants bc
+        obv there are good restaurants and bad restaurants and it's pretty easy to judge bad restaurants bc
         something there (usually the food) that just sucks reallllly baddd and you just never go again LOL 
         but when it comes to good restaurants, I feel like there's different kinds of <i>good</i> restaurants.
         so what do i look for to judge if a restaurant is good value? what makes me wanna go back?

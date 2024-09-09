@@ -18,6 +18,10 @@
     padding-left: 30px;
 }
 
+.smol {
+    max-width: 200px;
+}
+
 @media only screen and (max-width: 750px) {
     .me-left, .me-right {
         float: none;
