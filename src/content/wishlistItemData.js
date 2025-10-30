@@ -23,26 +23,26 @@ export const wishlistItemData = [
     }]
   },
 
-  {
-    priority: 9.5,
-    itemName: 'wireless charging stand',
-    price: 50,
-    images: [{
-      imagePath: 'charging-stand.png',
-      imgAlt: 'charging stand',
-      indicatorText: ''
-    }],
-    indicatorSectionText: '',
-    description: (<>
-      <p>
-        see it's weird bc i have an android but i also use airpods but i would like fast charging idk whatever lol
-      </p>
-    </>),
-    tags: [{
-      text: 'electronics',
-      tagColor: 'periwinkle'
-    }]
-  },
+  // {
+  //   priority: 9.5,
+  //   itemName: 'wireless charging stand',
+  //   price: 50,
+  //   images: [{
+  //     imagePath: 'charging-stand.png',
+  //     imgAlt: 'charging stand',
+  //     indicatorText: ''
+  //   }],
+  //   indicatorSectionText: '',
+  //   description: (<>
+  //     <p>
+  //       see it's weird bc i have an android but i also use airpods but i would like fast charging idk whatever lol
+  //     </p>
+  //   </>),
+  //   tags: [{
+  //     text: 'electronics',
+  //     tagColor: 'periwinkle'
+  //   }]
+  // },
 
   {
     priority: 3,
@@ -210,62 +210,62 @@ export const wishlistItemData = [
     }]
   },
 
-  {
-    priority: 8,
-    itemName: 'ruffwear swamp cooler dog harness',
-    price: 70,
-    images: [{
-      imagePath: 'harness.png',
-      imgAlt: 'ruffwear swamp cooler dog harness in graphite grey',
-      indicatorText: ''
-    }],
-    indicatorSectionText: '',
-    description: (<>
-      <p>
-        what can i say? marketing works on me bc i want one of these too. if this goes on sale i'd totally
-        consider just getting it too bc cooling her down in the summer sounds nice.
-        her body is like 24in ribcage, neck is about 14in so i think that's S size?
-      </p>
-      <p>i think there's multiple colors out there but idc about colors for this one</p>
-    </>),
-    tags: [{
-      text: 'dog',
-      tagColor: 'teal'
-    }]
-  },
+  // {
+  //   priority: 8,
+  //   itemName: 'ruffwear swamp cooler dog harness',
+  //   price: 70,
+  //   images: [{
+  //     imagePath: 'harness.png',
+  //     imgAlt: 'ruffwear swamp cooler dog harness in graphite grey',
+  //     indicatorText: ''
+  //   }],
+  //   indicatorSectionText: '',
+  //   description: (<>
+  //     <p>
+  //       what can i say? marketing works on me bc i want one of these too. if this goes on sale i'd totally
+  //       consider just getting it too bc cooling her down in the summer sounds nice.
+  //       her body is like 24in ribcage, neck is about 14in so i think that's S size?
+  //     </p>
+  //     <p>i think there's multiple colors out there but idc about colors for this one</p>
+  //   </>),
+  //   tags: [{
+  //     text: 'dog',
+  //     tagColor: 'teal'
+  //   }]
+  // },
 
-  {
-    priority: 9,
-    itemName: 'nintendo switch joy cons',
-    price: 80,
-    images: [{
-      imagePath: 'joycon/pink-pink-joycon.png',
-      imgAlt: 'two pastel pink joycons',
-      indicatorText: 'pastel pink'
-    }, {
-      imagePath: 'joycon/purple-green-joycon.png',
-      imgAlt: 'pastel purple / pastel green joycons',
-      indicatorText: 'pastel purple / pastel green'
-    }, {
-      imagePath: 'joycon/pink-yellow-joycon.png',
-      imgAlt: 'pastel pink / pastel yellow joycons',
-      indicatorText: 'pastel pink / pastel yellow'
-    }],
-    indicatorSectionText: 'colors for ur reference:',
-    description: (<>
-      <p>
-        so i think it would b nice to have more joycons for my switch but here's my issue:
-        they come in pink / yellow, pink / pink, or purple / green.
-        i wish they had pink / lavender.
-        the yellow is eh to me and the green is nice ig but i alr have
-        a light green from my animal crossing edition switch anyways
-      </p>
-    </>),
-    tags: [{
-      text: 'electronics',
-      tagColor: 'periwinkle'
-    }]
-  },
+  // {
+  //   priority: 9,
+  //   itemName: 'nintendo switch joy cons',
+  //   price: 80,
+  //   images: [{
+  //     imagePath: 'joycon/pink-pink-joycon.png',
+  //     imgAlt: 'two pastel pink joycons',
+  //     indicatorText: 'pastel pink'
+  //   }, {
+  //     imagePath: 'joycon/purple-green-joycon.png',
+  //     imgAlt: 'pastel purple / pastel green joycons',
+  //     indicatorText: 'pastel purple / pastel green'
+  //   }, {
+  //     imagePath: 'joycon/pink-yellow-joycon.png',
+  //     imgAlt: 'pastel pink / pastel yellow joycons',
+  //     indicatorText: 'pastel pink / pastel yellow'
+  //   }],
+  //   indicatorSectionText: 'colors for ur reference:',
+  //   description: (<>
+  //     <p>
+  //       so i think it would b nice to have more joycons for my switch but here's my issue:
+  //       they come in pink / yellow, pink / pink, or purple / green.
+  //       i wish they had pink / lavender.
+  //       the yellow is eh to me and the green is nice ig but i alr have
+  //       a light green from my animal crossing edition switch anyways
+  //     </p>
+  //   </>),
+  //   tags: [{
+  //     text: 'electronics',
+  //     tagColor: 'periwinkle'
+  //   }]
+  // },
   {
     priority: 10,
     itemName: 'rainbow sandals double layer flip flop',
@@ -340,25 +340,25 @@ export const wishlistItemData = [
   },
 
   
-  {
-    priority: 12,
-    itemName: 'The Ordinary - Glycolic Acid 7% Exfoliating Toner',
-    price: 13,
-    images: [{
-      imagePath: 'glycolic-toner.png',
-      imgAlt: 'The Ordinary - Glycolic Acid 7% Exfoliating Toner',
-      indicatorText: ''
-    }],
-    indicatorSectionText: '',
-    description: (<>
-      <p>i've been influenced i want this just to try
-      </p>
-    </>),
-    tags: [{
-      text: 'beauty',
-      tagColor: 'green'
-    }]
-  },
+  // {
+  //   priority: 12,
+  //   itemName: 'The Ordinary - Glycolic Acid 7% Exfoliating Toner',
+  //   price: 13,
+  //   images: [{
+  //     imagePath: 'glycolic-toner.png',
+  //     imgAlt: 'The Ordinary - Glycolic Acid 7% Exfoliating Toner',
+  //     indicatorText: ''
+  //   }],
+  //   indicatorSectionText: '',
+  //   description: (<>
+  //     <p>i've been influenced i want this just to try
+  //     </p>
+  //   </>),
+  //   tags: [{
+  //     text: 'beauty',
+  //     tagColor: 'green'
+  //   }]
+  // },
   
   
   {
