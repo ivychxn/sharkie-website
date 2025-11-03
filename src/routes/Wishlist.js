@@ -167,6 +167,10 @@ const Wishlist = () => {
         so then i don't have to</p>
 
       <h1>guidelines n stuff</h1>
+      
+      <p>
+        um actually i'm gonna go to japan later and buy a whole new wardrobe and with the currency conversion it's gonna be rly cheap so i don't even rly need clothes ngl
+      </p>
       <div style={{display: 'flex', flexDirection: 'column'}}>
       {renderBrandNotes()}
       </div>
