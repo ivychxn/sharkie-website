@@ -45,7 +45,7 @@ export const wishlistItemData = [
   // },
 
   {
-    priority: 3,
+    priority: 6.5,
     itemName: 'fujifilm refills',
     price: 60,
     images: [{
@@ -64,7 +64,7 @@ export const wishlistItemData = [
     tags: [{
       text: 'misc',
       tagColor: 'grey'
-    },{
+    }, {
       text: 'luv having extra',
       tagColor: 'orange'
     }]
@@ -99,6 +99,107 @@ export const wishlistItemData = [
       tagColor: 'pink'
     }]
   },
+
+  {
+    priority: 2,
+    itemName: 'ikea stuff',
+    price: 150,
+    images: [{
+      imagePath: 'ikea.png',
+      imgAlt: 'ikea logo',
+      indicatorText: ''
+    }],
+    indicatorSectionText: '',
+    description: (<>
+      <p> maybe some bookcases or shelves or something i think those would be cool but also i'd rather wait for black friday and also i'm lazy to measure it and also i'm lazy to put it together. well actually will would have to put it together and i think he's tired of that too idk
+      </p>
+      <p>
+how much are bookcases and shelves idek bc i don't wanna bother checking
+      </p>
+            <p>
+        but we have some empty space in the apartment so imo we should fill it and have some storage solutions or shelves to put like trinkets n stuff. the apartment is so guy bc it's so barren so we need to accumulate items but then also i dont wanna accumulate if we have no place to put things
+      </p>
+    </>),
+    tags: [{
+      text: 'misc',
+      tagColor: 'grey'
+    }]
+  },
+  
+  {
+    priority: 1.5,
+    itemName: 'pants hangers with soft clips',
+    price: 25,
+    images: [{
+      imagePath: 'pants_hangers.jpg',
+      imgAlt: 'pants hangers',
+      indicatorText: ''
+    }],
+    indicatorSectionText: '',
+    description: (<>
+      <p> i have pants and no more hangers to hang them on. prob get during black friday i can technically live without them. i have a lotta reg clothes hangers but not the ones with the clips for pants
+      </p>
+
+      <p> the rly thin ones lowkey piss me off bc wydm they break if my pants weigh a lil more
+      </p>
+      <p>
+        i also want the clips to be like kinda soft or the nonslip ones or like, just not the extreme metal ones that leave marks on clothes yk
+      </p>
+    </>),
+    tags: [{
+      text: 'misc',
+      tagColor: 'grey'
+    }]
+  },
+  
+  {
+    priority: 5.5,
+    itemName: 'nugget ice maker',
+    price: 125,
+    images: [{
+      imagePath: 'nuggetice.png',
+      imgAlt: 'nugget ice maker',
+      indicatorText: ''
+    }],
+    indicatorSectionText: '',
+    description: (<>
+      <p> DO YK THE CHICK FIL A ICE AND THE RAISING CANES ICE??? like how it's small but also rly crunchy and u can just bite in and crunch crunch crunch crunch crunch crunch crunch crunch crunch ?????? I WANT AN ICE MAKER LIKE THAT
+      </p>
+
+      <p> if it makes big ice i literally do not want it i would rather have no ice if i can't have the specific crunchy nugget ice bc it's a texture thing
+      </p>
+    </>),
+    tags: [{
+      text: 'misc',
+      tagColor: 'grey'
+    }]
+  },
+
+  {
+    priority: 11,
+    itemName: 'dino nugget pillows',
+    price: 15,
+    images: [{
+      imagePath: 'dino.png',
+      imgAlt: 'dino nugget pillows',
+      indicatorText: ''
+    }],
+    indicatorSectionText: '',
+    description: (<>
+      <p> 
+        i don't actually need them but they look rly cute so why not
+      </p>
+
+      <p> 
+        idk where someone would buy these bc i feel like these are the things that get hella dropshipped from china or something bc it's so gimmicky but also they're pretty cute i'm ngl
+      </p>
+    </>),
+    tags: [{
+      text: 'misc',
+      tagColor: 'grey'
+    }]
+  },
+
 
   {
     priority: 5,
@@ -305,19 +406,19 @@ export const wishlistItemData = [
       imagePath: 'patches/hero-mighty-patch.png',
       imgAlt: 'mighty patch by hero cosmetics',
       indicatorText: 'hero - mighty patch'
-    },{
+    }, {
       imagePath: 'patches/cosrx-master-patch-set.png',
       imgAlt: 'cosrx - master patch set',
       indicatorText: 'cosrx - master patch set'
-    },{
+    }, {
       imagePath: 'patches/peach-slices-dark-spot-microdarts.png',
       imgAlt: 'peach slices dark spot microdarts',
       indicatorText: 'peach slices - dark spot microdarts'
-    },{
+    }, {
       imagePath: 'patches/peach-slices-deep-blemish-microdarts.png',
       imgAlt: 'peach slices dark blemish microdarts',
       indicatorText: 'peach slices - dark blemish microdarts'
-    },{
+    }, {
       imagePath: 'patches/peach-slices-acne-spot-dots.png',
       imgAlt: 'peach slices - acne spot dots',
       indicatorText: 'peach slices - acne spot dots'
@@ -325,7 +426,7 @@ export const wishlistItemData = [
     indicatorSectionText: 'options',
     description: (<>
       <p>
-        always wanted to try the early stage ones or whatever but any patches will do. 
+        always wanted to try the early stage ones or whatever but any patches will do.
         not really that picky on brands, but peach slices, hero cosmetics, cosrx would
         be cool
       </p>
@@ -333,13 +434,13 @@ export const wishlistItemData = [
     tags: [{
       text: 'beauty',
       tagColor: 'green'
-    },{
+    }, {
       text: 'luv having extra',
       tagColor: 'orange'
     }]
   },
 
-  
+
   // {
   //   priority: 12,
   //   itemName: 'The Ordinary - Glycolic Acid 7% Exfoliating Toner',
@@ -359,8 +460,8 @@ export const wishlistItemData = [
   //     tagColor: 'green'
   //   }]
   // },
-  
-  
+
+
   {
     priority: 13,
     itemName: 'Dionis Vanilla Bean Goat Milk Hand Soap',
@@ -380,13 +481,13 @@ export const wishlistItemData = [
     tags: [{
       text: 'misc',
       tagColor: 'grey'
-    },{
+    }, {
       text: 'luv having extra',
       tagColor: 'orange'
     }]
   },
-  
-  
+
+
   {
     priority: 14,
     itemName: 'Dionis - Vanilla Bean Bath & Shower Goat Milk Crème',
@@ -402,8 +503,8 @@ export const wishlistItemData = [
         <a href="https://dionisgmskincare.com/products/vanilla-bean-bath-shower-goat-milk-creme">dionis website</a>
       </p>
       <p>
-        such a feel good item bc it smells so nice. i love this brand 
-        and i saw it at costco originally but it's no longer at costco. 
+        such a feel good item bc it smells so nice. i love this brand
+        and i saw it at costco originally but it's no longer at costco.
         i saw this brand is also at ulta but not all the items are there
         so i think the only way is just online directly
       </p>
@@ -411,7 +512,7 @@ export const wishlistItemData = [
     tags: [{
       text: 'misc',
       tagColor: 'grey'
-    },{
+    }, {
       text: 'luv having extra',
       tagColor: 'orange'
     }]
@@ -434,14 +535,14 @@ export const wishlistItemData = [
     tags: [{
       text: 'food',
       tagColor: 'yellow'
-    },{
+    }, {
       text: 'luv having extra',
       tagColor: 'orange'
     }]
   },
-  
+
   {
-    priority: 30,
+    priority: 10,
     itemName: 'shower filter',
     price: 30,
     images: [{
